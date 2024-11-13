@@ -1,0 +1,53 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between; /* Space between logo, nav, and search */
+    align-items: center; /* Vertically center items */
+    padding: 20px 50px; /* Add some padding around */
+    background-color: white; /* Dark background */
+    color: black;
+}
+
+/* Logo Section */
+.logo img {
+    width: 150px; /* Adjust based on your logo size */
+    height: auto;
+}
+
+/* Navigation Menu */
+.navbar {
+    flex: 1; /* Takes up remaining space between logo and search */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the nav items */
+    gap: 20px; /* Space between items */
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #ff7200; /* Highlight color when hovering */
+}
+
+
