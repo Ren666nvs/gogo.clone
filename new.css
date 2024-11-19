@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header-container {
+    width: 100vw;
+    background-color: red;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    width: 1100px;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 119px;
+    height: 39px;
+}
+
+#header-navbar {
+    display: flex;
+    width: 556px;
+    justify-content: space-around;
+}
+
+.news-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#header-statistic {
+    display: flex;
+}
