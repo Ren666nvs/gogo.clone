@@ -18,6 +18,13 @@
     display: flex;
     align-items: center;
 }
+#Statistic-1{
+    margin-top: -15px;
+}
+#statistic-0{
+    height: 270.15px;
+    width: 50px;
+}
 
 #logo {
     width: 119px;
@@ -44,6 +51,8 @@
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
+    height: 270.15px;
+    width: 50px;
 }
 
 #weather {
@@ -114,59 +123,7 @@
     margin: 0px 20px 0px 0px;
     border: none;
     gap: 15px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -405,4 +362,23 @@ main {
 .new-tyson-news {
     display: flex;
     flex-direction: column;
+}
+
+
+.news-text{
+    height: 78px;
+    width: 450px;
+  
+}
+.news-img{
+    height: 150px;
+    width: 210px;
+    border-radius: 5px;
+   
+    
+}
+.news-title30{
+    width:480px ;
+    height: 171px;
+    
 }
