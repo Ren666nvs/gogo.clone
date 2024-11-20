@@ -51,8 +51,7 @@
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
-    height: 270.15px;
-    width: 50px;
+    
 }
 
 #weather {
@@ -75,13 +74,15 @@
 
 
 .Business {
-    background-color: orange;
+    background: #c40097;
+    background: linear-gradient(129deg, #c40097, #d6710b);
+    background-image: linear-gradient(-120deg, #e08100, #c90027);
+    border-radius: 100px;
+    padding: 8px 15p;
     color: white;
-    height: 30;
-    width: 73.02;
-    font: 12px;
-    padding: 8px 15px;
-    border-radius: 10px;
+    height: 30px;
+    width: 73.02px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,7 +187,7 @@ main {
 }
 
 .tyson-card-img {
-
+    
 
     height: 235px;
     width: 170.8px;
@@ -194,7 +195,11 @@ main {
     border-radius: 8px;
     gap: 1px;
 }
-
+.tyson-card-img transition{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
 .hide {
     color: white;
     width: 100%;
