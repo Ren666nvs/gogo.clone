@@ -1,51 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-    display: flex;
-    padding-left: 50px;
-    margin-left: 50px;
-    font-weight: bold;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  padding-left: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    width: 119px;
-    height: 38.91px;
+  width: 119px;
+  height: 38.91px;
 }
 
 .Title-1 {
-    width: 95.99xp;
-    height: 22px;
-    color: #000;
-    font: 16px;
-    padding: 0px 10px;
-    font-weight: bold;
+  width: 95.99xp;
+  height: 22px;
+  color: #000;
+  font: 16px;
+  padding: 0px 10px;
+  font-weight: bold;
 }
 
 .news-container {
-    max-width: 1100px;
-
+  max-width: 1100px;
 }
 
 #medee {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
 }
 
 #bulan {
-    width: 95.99px;
-    height: 22px;
-    color: #000;
-    font: 16px;
-    padding: 0px 10px;
-    font-weight: bold;
-
+  width: 95.99px;
+  height: 22px;
+  color: #000;
+  font: 16px;
+  padding: 0px 10px;
+  font-weight: bold;
 }
 
 /* .hero {
@@ -160,6 +158,9 @@ nav ul li a {
     gap: 50px;
     align-items: start;
 
+
+
+    
 }
 
 .section-title {
@@ -343,5 +344,4 @@ home-calendar-container {
 } */
 
 .header {
-    
 }
