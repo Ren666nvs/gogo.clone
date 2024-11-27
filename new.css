@@ -722,3 +722,30 @@ color: white;
   
     transform: scale(1.2);
   }
+  .s1:hover p{
+height: 50%;
+  }
+  .huniituuh .huniituuh1:hover{
+    transform: scale(1.2);
+  }
+
+  .huniiituuh1{
+    transition: all 0.3s ease;
+width: 263.75px;
+height: 243px;
+object-fit: cover;
+
+  }
+  
+  .yrilts{
+    position: relative;
+  overflow: hidden;
+  
+  }
+  .yri{
+    position: relative;
+    overflow: hidden;
+  }
+  .test-2{
+  
+  }
