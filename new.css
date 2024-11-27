@@ -336,7 +336,8 @@ main {
   height: 7px;
   background-color: #efefef;
   border-radius: 20px;
-  transition: all .4s ease-in-out;
+  display: flex;
+  justify-content: space-between;
 }
 .calendar-one-day, .home-calendar-container {
   -webkit-transition: all .4s ease-in-out;
@@ -349,44 +350,7 @@ main {
   justify-content: center;
 }
 
-.calendar-first-day-text {
-  color: #407ce8;
-}
 
-*/ .calendar-one-day-1 {
-  height: 7px;
-  width: 103.81px;
-  background-color: #b7b6b6;
-  border-radius: 3px;
-}
-
-.calendar-one-day-2 {
-  height: 7px;
-  width: 103.81px;
-  background-color: #b7b6b6;
-  border-radius: 3px;
-}
-
-.calendar-one-day-3 {
-  height: 7px;
-  width: 103.81px;
-  background-color: #b7b6b6;
-  border-radius: 3px;
-}
-
-.calendar-one-day-4 {
-  height: 7px;
-  width: 103.81px;
-  background-color: #b7b6b6;
-  border-radius: 3px;
-}
-
-.calendar-one-day-5 {
-  height: 7px;
-  width: 103.81px;
-  background-color: #b7b6b6;
-  border-radius: 3px;
-}
 #news-data{
   margin-bottom: 15px;
   margin-top: 10px;
@@ -421,10 +385,7 @@ main {
 .margin-top-20 {
   margin-top: 20px;
 }
-user agent stylesheet div {
-  display: block;
-  unicode-bidi: isolate;
-}
+
 
 .uk-grid {
   display: flex; 
@@ -434,29 +395,7 @@ user agent stylesheet div {
   list-style: none;
 }
 
-html {
-  background: #fff;
-  -webkit-font-smoothing: antialiased;
-  text-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.004);
-  -moz-osx-font-smoothing: grayscale;
-  color: #6c6c6c;
-  font: normal 14px / 22px Helvetica Neue, sans-serif, Arial;
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-}
 
-html {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  -webkit-text-size-adjust: 100%;
-  background: #fff;
-  color: #666;
-}
 ::selection {
   color: #000;
   background: rgba(192, 223, 255, 0.5411764705882353);
@@ -665,6 +604,37 @@ html {
   transform: scale(1);
 }
 
+.gutal-text{
+    background-color: #407ce8;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+.home-interview-main-title {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
 
-
-
+.test-1{
+  display: flex;
+}
+.yriltslaga{
+  
+}
+.four{
+  display: flex;
+  margin-left: -15px;
+  flex-wrap: wrap;
+}
+.zero{
+  display: flex;
+  margin-left: -15px;
+  flex-wrap: wrap;
+}
