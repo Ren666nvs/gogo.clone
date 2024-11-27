@@ -556,6 +556,7 @@ main {
   display: inline-block;
   fill: currentcolor;
   line-height: 0;
+  color: white;
 }
 .margin-top-60{
   margin-top: 60px;
@@ -580,7 +581,7 @@ main {
   text-transform: none;
 }
 .home-interview-main-more-txt, .home-interview-main-small-txt {
-  color: #333;
+  color: white;
   padding-top: 10px;
   font-weight: 700;
   border-top: 1px solid hsla(0, 0%, 100%, .15);
@@ -616,7 +617,7 @@ main {
     margin-bottom: 5px;
 }
 .home-interview-main-title {
-  color: black;
+  color: white;
   font-weight: 700;
   font-size: 20px;
   margin: 0;
@@ -626,6 +627,9 @@ main {
   display: flex;
 }
 .yriltslaga{
+  position: relative;
+  width: 542.5px;
+  overflow: hidden;
   
 }
 .four{
@@ -638,3 +642,83 @@ main {
   margin-left: -15px;
   flex-wrap: wrap;
 }
+.one{
+  overflow: hidden;
+
+
+}
+.today{
+  transition: all 0.3s ease;
+  object-fit: cover;
+
+}
+.one .today:hover{
+  transform: scale(1.2);
+}
+.yriltslaga:hover p {
+  height: 50%;
+ 
+}
+.text99{
+  position: absolute;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  z-index: 1;
+  left: 0;
+  margin-bottom: 5px;
+  width: 85%;
+  height: 40%;
+  transition: 0.3s;
+  
+
+
+}
+.text99:hover{
+  height: auto;
+  
+}
+
+.five:hover p{
+  height: 50%;
+}
+.five{
+  position: relative;
+  width: 250px;
+  overflow: hidden;
+
+}
+.five:hover p {
+  height: 50%;
+}
+.garaaniibiznes{
+  background-color: #407ce8;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.home-interview-small-title{
+color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
+.dia-img{
+    transition: all 0.3s ease;
+    object-fit: cover;
+    
+}
+
+.diimaa-text1{
+  height: auto;
+}
+.dima.dia-img:hover{
+  
+    transform: scale(1.2);
+  }
